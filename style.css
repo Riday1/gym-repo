@@ -256,3 +256,112 @@ body {
     border: none;
 
 }
+
+.service1 {
+    width: 350px;
+    height: 500px;
+
+    box-shadow: 3px 3px 18px gray;
+    border-radius: 10px;
+    margin: 20px;
+    ;
+
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+    ;
+}
+
+.service-image img {
+    width: 100%;
+}
+
+.service-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ;
+}
+
+.service-description h5 {
+    font-size: 20px;
+    margin: 0px;
+    padding: 10px 5px;
+    ;
+    ;
+}
+
+.service-description h2 {
+    color: red;
+    padding: 10px 5px;
+    margin: 0px;
+}
+
+.service-description h6 {
+    margin: 0px;
+    padding: 10px 5px;
+    font-size: 15px;
+}
+
+.service-footer {
+    padding: 5px 5px;
+}
+
+.service-footer p {
+    color: red;
+}
+
+.footer-section {
+    text-align: center;
+    padding: 20px;
+
+}
+
+.footer-description {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-description h5 {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    ;
+}
+
+
+.footer-container {
+    width: 249px;
+    height: 100px;
+    ;
+    margin: 0 auto;
+    ;
+
+}
+
+.color {
+    color: red;
+}
+
+.row {
+    width: 90%;
+}
+
+.batch img {
+    width: 60px;
+    position: relative;
+    ;
+    top: -28px;
+    left: 320px;
+
+
+}
+
+.batch {
+    position: absolute;
+
+}
