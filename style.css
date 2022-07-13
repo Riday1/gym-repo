@@ -1,0 +1,258 @@
+body {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.menu-container {
+    display: flex;
+    background: black;
+    color: white;
+}
+
+.company-logo {
+    font-size: 50px;
+    flex-grow: 1;
+    margin-left: 0px;
+    font-family: cursive;
+    padding-left: 80px;
+}
+
+.company-logo h1 {
+    margin: 0px;
+}
+
+.menu-item {
+    flex-grow: 1;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    ;
+
+}
+
+.menu-item li {
+    list-style: none;
+    padding: 10px;
+    width: 100px;
+    font-size: 25px;
+    text-align: center;
+
+
+}
+
+.menu-item li:hover {
+    color: white;
+    background: tomato;
+    cursor: pointer;
+}
+
+.banner-container {
+    display: flex;
+    background: black;
+
+    ;
+    color: white;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+
+}
+
+.banner-description {
+    margin-left: 60px;
+}
+
+.banner-text {
+    font-size: 30px;
+    color: red;
+    margin: 20px 10px;
+}
+
+.title1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 20px 10px;
+}
+
+.text {
+    font-size: 30px;
+    margin: 40px 10px;
+}
+
+.banner-btn {
+    padding: 15px 30px;
+    background: red;
+    margin: 20px 10px;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.banner-btn:hover {
+    background: rgb(230, 35, 35);
+}
+
+.banner-left {
+    width: 50%;
+}
+
+.banner-right {
+    width: 50%;
+}
+
+.bannger-image {
+    margin-left: 100px;
+}
+
+
+.section-2 {
+    margin-top: 30px;
+    ;
+
+}
+
+.section-2 {
+    padding: 70px;
+    display: flex;
+    justify-content: space-around;
+    ;
+}
+
+#title2 {
+    text-align: center;
+    font-size: 60px;
+    padding: 36px;
+    margin: 0px;
+
+}
+
+.card1 {
+    width: 350px;
+    height: 300px;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    border-radius: 7px;
+    box-shadow: 2px 2px 10px gray;
+    margin-top: 40px;
+    transition: 0.2s;
+    ;
+
+}
+
+.card1:hover {
+    transform: scale(1.01);
+    border: 1px solid red;
+    ;
+}
+
+.gym-icon {
+    width: 100px;
+}
+
+.cardtext {
+    font-size: 20px;
+    font-family: arial;
+    text-align: justify;
+    ;
+}
+
+.link- {
+    font-size: 20px;
+    color: gray;
+    text-decoration: none;
+    ;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-evenly;
+    background: black;
+    color: white;
+}
+
+.about-left {
+    width: 700px;
+    border-top: 2px solid red;
+    ;
+}
+
+.about-right {
+    width: 700px;
+    border-top: 2px solid white;
+    ;
+
+}
+
+.workout-imgage {
+    display: flex;
+    margin-top: 50px;
+}
+
+.workout-imgage img {
+    width: 300px;
+    height: 550px;
+    transform: skewy(-15deg);
+    margin: 20px;
+}
+
+.btn-text {
+    text-decoration: none;
+
+    color: white;
+    ;
+}
+
+.title2id {
+    background: black;
+    color: white;
+
+}
+
+.description-heading {
+
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.description-para {
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.713);
+    ;
+}
+
+.description-list {
+    font-size: 20px;
+    line-height: 40px;
+    ;
+}
+
+.workout-container {
+    width: 700px;
+    height: 200px;
+    background-image: url(images/shape/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 200px auto;
+
+
+    ;
+}
+
+.chat-btn {
+    padding: 10px 30px;
+    background: white;
+    font-weight: bold;
+    font-size: 16px;
+    ;
+    color: black;
+    border: none;
+
+}
